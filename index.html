@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>STH Fresh Fruit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head><body>
+<header class="top"><div class="brand"><span>🍊</span><div><b>STH Fresh Fruit</b><small>Farm-fresh goodness • Telangana</small></div></div>
+<nav><button onclick="show('home')">Home</button><button onclick="show('shop')">Shop</button><button onclick="show('orders')">My Orders</button><button onclick="show('admin')">Admin</button><button id="loginBtn" onclick="show('login')">Login</button><button class="cart" onclick="openCart()">🛒 <span id="cartCount">0</span></button></nav></header>
+<main id="app"></main>
+<div id="modal" class="modal hidden"></div>
+<script src="/app.js"></script></body></html>

@@ -1,0 +1,14 @@
+{
+  "name": "sth-fresh-fruit",
+  "version": "1.0.0",
+  "description": "STH Fresh Fruit - Telangana online fresh fruit store",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "razorpay": "^2.9.4"
+  }
+}
